@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=muhammed255" alt="muhammed255" /></a> </p>
 
-- 🔭 I’m currently working on **DAF**
+- 🔭 I’m currently working in **DAF**
 
 - 🌱 I’m currently learning **Nestjs/Flutter**
 
