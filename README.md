@@ -7,9 +7,9 @@
 
 - 🔭 I’m currently working in **DAF**
 
-- 🌱 I’m currently learning **Nestjs/Flutter**
+- 🌱 I’m currently learning **Flutter**
 
-- 💬 Ask me about **Nodejs, Angular**
+- 💬 Ask me about **Nodejs, Nestjs and Angular**
 
 - 📫 How to reach me **mhmd.ahmd.0597@gmail.com**
 
