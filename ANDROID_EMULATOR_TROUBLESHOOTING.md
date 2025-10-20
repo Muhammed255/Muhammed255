@@ -3,6 +3,39 @@
 ## Issue
 Pixel 9 Pro XL emulator in Android Studio terminates immediately after starting with a "process has terminated" error.
 
+## 🔴 YOUR SPECIFIC ISSUE: INSUFFICIENT DISK SPACE
+
+**Error from your logs:**
+```
+FATAL | Not enough space to create userdata partition. 
+Available: 7625.23 MB
+Need: 9830.40 MB
+```
+
+### ✅ IMMEDIATE SOLUTIONS:
+
+**Option A - Reduce Storage (2 minutes):**
+1. Open Android Studio → Tools → AVD Manager
+2. Click Edit (pencil icon) on Pixel_9_Pro_XL
+3. Show Advanced Settings
+4. Change **Internal Storage** from 9830 MB to **4096 MB**
+5. Click Finish and start emulator
+
+**Option B - Free Up Space:**
+- Clean C: drive (need 3-4 GB more space)
+- Empty Recycle Bin
+- Run Disk Cleanup
+- Delete temp files: `Win + R` → type `%temp%` → Delete all
+
+**Option C - Move AVD to Another Drive:**
+1. Create folder on D: drive: `mkdir D:\AndroidAVD`
+2. Set environment variable: `setx ANDROID_AVD_HOME "D:\AndroidAVD"`
+3. Restart Android Studio
+
+📄 **See detailed instructions in:** `EMULATOR_FIX_DISK_SPACE.md`
+
+---
+
 ## Common Causes & Solutions
 
 ### 1. **Enable Hardware Virtualization (Most Common Fix)**
